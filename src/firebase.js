@@ -4,14 +4,14 @@ import "firebase/compat/auth";
 import "firebase/compat/firestore";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCR9QnER7kb4T-CZE3vTVX4EyUnu7MkqYE",
-    authDomain: "price-deck-ifzxe8gpv-cmdsiraj.vercel.app",
-    projectId: "price-deck",
-    storageBucket: "price-deck.appspot.com",
-    messagingSenderId: "668316657045",
-    appId: "1:668316657045:web:aa4dc63687b5da286dc29c",
-    measurementId: "G-1YT6MF8VFK"
-  };
+  apiKey: "AIzaSyCR9QnER7kb4T-CZE3vTVX4EyUnu7MkqYE",
+  authDomain: "price-deck.firebaseapp.com",
+  projectId: "price-deck",
+  storageBucket: "price-deck.appspot.com",
+  messagingSenderId: "668316657045",
+  appId: "1:668316657045:web:aa4dc63687b5da286dc29c",
+  measurementId: "G-1YT6MF8VFK",
+};
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
 const db = firebaseApp.firestore();
