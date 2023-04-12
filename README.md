@@ -5,15 +5,16 @@ A Price Comparison website
 2.  Clone the repository using the command `git clone https://github.com/cmdsiraj/PriceDeck.git`.
 3.  Go to folder PriceDeck. You can use this command to navigate to that directory `cd .\PriceDeck\`.
 4.  Installing dependencies: `npm install`.
-5.  cd to flask-server with the help of command  `cd .\flask-server\`.
-6.  Creating virtual environment with the help of command `virtualenv venv`.
-7.  Activate virtual environment using command `venv/Scripts/activate`.
-8.  Download required libraries using the following command `pip install -r requirements.txt`
-9.  Now, all the setup is ready. 
-10. Open a terminal in PriceDeck Folder and execute `npm start` to start the react server. 
-11. Open another terminal in the flask-server folder and execute `python server.py` to start our python server. 
-12. Open a browser and go to `http://localhost:3000/`.
-13. The app is up and ready to use. 
+5.  You can find the server files here: https://github.com/cmdsiraj/price-deck-server (clone this repo and place inside this folder (PriceDeck)
+6.  cd to flask-server with the help of command  `cd .\flask-server\`.
+7.  Creating virtual environment with the help of command `virtualenv venv`.
+8.  Activate virtual environment using command `venv/Scripts/activate`.
+9.  Download required libraries using the following command `pip install -r requirements.txt`
+10.  Now, all the setup is ready. 
+11. Open a terminal in PriceDeck Folder and execute `npm start` to start the react server. 
+12. Open another terminal in the flask-server folder and execute `python server.py` to start our python server. 
+13. Open a browser and go to `http://localhost:3000/`.
+14. The app is up and ready to use. 
 
 ## Description about folders
 
